@@ -3,7 +3,6 @@ import {
   ArrowToTop,
   ContactHeader,
   ContactLink,
-  Copyright,
   FooterArrowLine,
   FooterBigLink,
   FooterBigLinkContainer,
@@ -13,7 +12,6 @@ import {
   FooterSmallTitle,
   FooterSmallTitleWrapper,
   FooterSocials,
-  Small,
   StyledFooter,
 } from "../styles/Footer.styled";
 import { animateScroll as scroll } from "react-scroll";
@@ -32,7 +30,7 @@ const Footer = () => {
 
       <FooterBigLinkContainer>
         <FooterBigLink
-          href="mailto:jerichobantiquete@gmail.com"
+          href="mailto:omarmohaa027@gmail.com"
           data-hover="Let's talk!"
         >
           Need a developer?
@@ -41,27 +39,27 @@ const Footer = () => {
       <FooterContacts>
         <FooterContact>
           <ContactHeader>Call me</ContactHeader>
-          <ContactLink href="tel:+639951076206">+639951076206</ContactLink>
+          <ContactLink href="tel:+639951076206">+966505436462</ContactLink>
         </FooterContact>
         <FooterContact>
           <ContactHeader>Social</ContactHeader>{" "}
           <FooterSocials>
             <ContactLink
-              href="https://github.com/monciego"
+              href="https://github.com/omarmoha15"
               target="_blank"
               rel="noopener noreferrer"
             >
               GitHub
             </ContactLink>
             <ContactLink
-              href="https://www.linkedin.com/in/jericho-bantiquete-450541179/"
+              href="https://www.linkedin.com/in/omar-mohammed-7693191a1/"
               target="_blank"
               rel="noopener noreferrer"
             >
               LinkedIn
             </ContactLink>
             <ContactLink
-              href="https://www.instagram.com/monciego/"
+              href="https://www.instagram.com/iiomar_moha/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -71,8 +69,8 @@ const Footer = () => {
         </FooterContact>
         <FooterContact>
           <ContactHeader>Let's grab a coffee.</ContactHeader>
-          <ContactLink href="tel:+639951076206">
-            jerichobantiquete@gmail.com
+          <ContactLink href="https://wa.me/+966505436462">
+            omarmohaa027@gmail.com
           </ContactLink>
         </FooterContact>
       </FooterContacts>
@@ -81,19 +79,6 @@ const Footer = () => {
         <FooterLine />
         <ArrowToTop title="Back to Top" onClick={toTop}></ArrowToTop>
       </FooterArrowLine>
-
-      <Copyright>
-        <small>
-          &copy; Copyright {year},{" "}
-          <Small
-            href="https://github.com/monciego"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Jericho Bantiquete
-          </Small>
-        </small>
-      </Copyright>
     </StyledFooter>
   );
 };

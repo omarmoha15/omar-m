@@ -2,7 +2,7 @@ import styled from "styled-components";
 import arrowUp from "../../assets//icons/icon-arrow-up.svg";
 
 export const StyledFooter = styled.footer`
-  background-color: ${({ theme }) => theme.backgroundColor.dark};
+  background-color: ${({ theme }) => theme.backgroundColor.hex};
   color: ${({ theme }) => theme.color.tertiaryLight};
 `;
 

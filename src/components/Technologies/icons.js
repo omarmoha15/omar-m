@@ -5,14 +5,13 @@ import reactjs from "../../assets/technologies/react.svg";
 import styledComponents from "../../assets/technologies/styled-components.svg";
 import tailwindcss from "../../assets/technologies/tailwindcss.svg";
 import bootstrap from "../../assets/technologies/bootstrap.svg";
-import sass from "../../assets/technologies/sass.svg";
 import npm from "../../assets/technologies/npm.svg";
-import laravel from "../../assets/technologies/laravel.svg";
 import git from "../../assets/technologies/git.svg";
 import github from "../../assets/technologies/github.svg";
 import figma from "../../assets/technologies/figma.svg";
-import adobexd from "../../assets/technologies/adobexd.svg";
 import vscode from "../../assets/technologies/visual-studio-code.svg";
+import adobe from "../../assets/technologies/adobexd.svg"
+import core from "../../assets/technologies/core.svg"
 
 export const iconsData = [
   {
@@ -51,11 +50,7 @@ export const iconsData = [
     icon: bootstrap,
     name: "Bootstrap",
   },
-  {
-    id: 8,
-    icon: sass,
-    name: "SASS",
-  },
+
   {
     id: 9,
     icon: npm,
@@ -63,9 +58,10 @@ export const iconsData = [
   },
   {
     id: 10,
-    icon: laravel,
-    name: "PHP Laravel",
+    icon: adobe,
+    name: "sql",
   },
+  
   {
     id: 11,
     icon: git,
@@ -83,9 +79,10 @@ export const iconsData = [
   },
   {
     id: 14,
-    icon: adobexd,
-    name: "Adobe XD",
+    icon: core,
+    name: "laravel",
   },
+ 
   {
     id: 15,
     icon: vscode,

@@ -8,6 +8,8 @@ export const theme = {
     light: "#ffffff",
     orange: "#e64e04",
     darkGray: "#111",
+    hex: "#f73100",
+    
   },
   color: {
     dark: "#000000",

@@ -28,26 +28,21 @@ const About = () => {
         </AboutImageContainer>
         <AboutDetailsContainer>
           <StyledParagraph>
-            My name is Jericho P. Bantiquete, currently pursuing Bachelor of
-            Science in Information Technology in Pangasinan State University. I
-            am a passionate front-end developer based in Philippines.
+          "Hello, I'm Omar Mohammed, a front-end developer with experience in React.js, React Native, and .NET Core. 
           </StyledParagraph>
           <StyledParagraph>
-            I love to design and create responsive websites or web apps from
-            scratch. The technologies, tools and languages I am using to build
-            my projects are HTML, CSS, JavaScript, REACT JS, TailwindCSS,
-            Bootstrap, PHP Laravel, Git and GitHub, Figma, Adobe XD and VS Code.
+          I specialize in creating user-friendly interfaces for web and mobile applications.
+           I have a passion for building responsive websites and have expertise in developing back-end solutions with .NET Core. 
+           
           </StyledParagraph>
           <StyledParagraph>
-            I have eagerness to learn something new every day and I love to
-            share my knowledge to my fellow students and developers. And I am
-            looking forward to talk with you!
+          I enjoy collaborating with teams and staying updated with the latest trends in front-end development. Feel free to reach out to me for potential collaborations. 
           </StyledParagraph>
           <Resume>
             <ResumeLink
               href={resume}
               icon={downloadIcon}
-              download="resume-jericho-bantiquete"
+              download="resume-omar-mohammed"
             >
               Download Resume
             </ResumeLink>
